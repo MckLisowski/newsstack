@@ -14,3 +14,19 @@ NewsStack to aplikacja pozwalająca dodawać "znaleziska" będące dowolnymi rze
 
 Aplikacja stworzona została w oparciu o Mavena, na bazie wzorca architektonicznego MVC z dodatkową warstwą pośrednią między warstwą dostępu do danych i kontrolerami. Warstwa widoku realizowana jest za pomocą dynamicznych stron JSP, wartwa kontrolerów za pomocą serwletów, a warstwa modelu podzielona jest na warstwę usług i warstwę dostępu do danych. Klasy Dao(Data Acces Object) odpowiadają za komunikację z bazą danych. Następnie do komunikacji z kontrolerami i widokiem wykorzystywane są obiekty Dto - Data Transfer Object.
 Aplikacja uruchamiana jest na kontenerze serwletów Tomcat. Aplikacja korzysta z bazy danych MySQL z użyciem JDBC API. W celu poprawienia czytelności wydzielone zostały segmenty stron JSP które powtarzają się. 
+
+Strona główna:
+
+![obraz](https://user-images.githubusercontent.com/37239354/115156732-08e1a700-a086-11eb-8c1e-494bf737bcaf.png)
+
+Rejestracja:
+
+![obraz](https://user-images.githubusercontent.com/37239354/115156750-1dbe3a80-a086-11eb-96d0-962aeb25adc7.png)
+
+Logowanie:
+
+![obraz](https://user-images.githubusercontent.com/37239354/115156768-30d10a80-a086-11eb-9653-801e0f460147.png)
+
+Strona kategorii:
+
+![obraz](https://user-images.githubusercontent.com/37239354/115156789-4c3c1580-a086-11eb-86bf-324abe7cb1b0.png)
