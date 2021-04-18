@@ -10,4 +10,5 @@ NewsStack is a Java project aimed at strenghtening the knowledge acquired during
 
 Newstack is an application alowing you to add "discoveries" being anything from the Internet. Logged in user can create a discovery by adding a description and a link to it. All webpage wisitors can browse through discoveries and their particular categories, while loged in users can also vote on them using up/down arrows. 
 
-Application has been created using Maven and based on software design pattern MVC with additional layer between data acces layer and controllers. View layer has been made using JSP pages, controllers layers using servlets, and model layer has been divided into services layer and data acces layer. 
+Application has been created using Maven and based on software design pattern MVC with additional layer between data acces layer and controllers. View layer has been made using JSP pages, controllers layer using servlets, and model layer has been divided into services layer and data acces layer. Dao classes (Data acces object) are responsible for communication with database.  Then, to communicate with controllers and view Dto objects (Data transfer object) are used. Application is run on Tomcat server. Application uses MySQL database utilising JDBC API. In order to improve legibility JSPF segments have  been created. 
+ 
