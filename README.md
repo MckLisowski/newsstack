@@ -1,5 +1,6 @@
 # newsstack
 ENGLISH (Polish below):
+
 NewsStack is a Java project aimed at strengthening the knowledge acquired during a Web Technologies course on https://javastart.pl/. It is not based on popular frameworks, because I wanted to understand how all main mechanisms work underneath. The next step would be the project based on Spring and Angular, which will soon appear on my Github.
 
 NewsStack is an application allowing you to add "discoveries" being anything from the Internet. Logged-in user can create a discovery by adding a description and a link to it. All webpage visitors can browse through discoveries and their particular categories, while logged-in users can also vote on them using up/down arrows. 
@@ -8,6 +9,7 @@ Application has been created using Maven and based on software design pattern MV
 
 
 POLSKI:
+
 NewsStack jest projektem, którego głównym celem było utrwalenie wiedzy nabytej podczas kursu Technologii Webowych stworzonego przez https://javastart.pl/. Nie jest on oparty na popularnych frameworkach, ponieważ chciałem zrozumieć jak wszystie podstawowe mechanizmy działają pod spodem. Kolejnym etapem będzie projekt oparty o Springa i Angulara, który niedługo pojawi sie na moim Githubie. 
 
 NewsStack to aplikacja pozwalająca dodawać "znaleziska" będące dowolnymi rzeczami z internetu. Zalogowany użytkownik może stworzyć znalezisko, podając opis i odpowiedni link. Wszyscy odwiedzający stronę mogą przeglądać znaleziska oraz poszczególne ich kategorie, a użytkownicy zalogowani mogą na nie także głosować za pomocą strzałek góra/dół.
